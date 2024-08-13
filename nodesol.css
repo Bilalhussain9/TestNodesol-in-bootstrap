@@ -1,0 +1,205 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+nav .nav-link {
+    color: white;
+    font-weight: 400;
+
+}
+
+.bg-1 {
+    background-image: url(.//images/Group\ 21\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.bg-1 .row {
+    padding: 88px 0;
+}
+
+.img1 img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    transition: all 2s;
+}
+
+/* .img1 img:hover {
+    transform: rotate(360deg);
+} */
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.text-green {
+    color: #6FBE44;
+}
+
+.fs-65 {
+    font-size: 3.385vw;
+}
+
+.fs-25 {
+    font-size: 1.302vw;
+}
+
+.fs-45 {
+    font-size: 2.344vw;
+}
+
+p {
+    color: #525252;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.line1 {
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(to right, #6D6697, #6D6697 5px, transparent 5px, transparent 5px);
+    background-size: 10px 5px;
+
+
+}
+
+.line2 {
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(to right, #6BBADB, #6BBADB 5px, transparent 5px, transparent 5px);
+    background-size: 10px 5px;
+
+
+}
+
+.line3 {
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(to right, #005555, #005555 5px, transparent 5px, transparent 5px);
+    background-size: 10px 5px;
+
+
+}
+
+.line4 {
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(to right, #FFAF17, #FFAF17 5px, transparent 5px, transparent 5px);
+    background-size: 10px 5px;
+
+
+}
+
+.line5 {
+    width: 200px;
+    height: 5px;
+    background-image: linear-gradient(to right, #FA6B39, #FA6B39 5px, transparent 5px, transparent 5px);
+    background-size: 10px 5px;
+
+
+}
+
+.b1 {
+    background-image: url(.//images/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    margin: 120px 0;
+
+}
+
+.a01 {
+    margin-right: 108px;
+}
+
+.a02 {
+    margin-right: 190px;
+}
+
+.a03 {
+    margin-right: 260px;
+}
+
+.a04 {
+    margin-right: 190px;
+}
+
+.a05 {
+    margin-right: 115px;
+}
+
+.b01 {
+    margin-left: 108px;
+}
+
+.b02 {
+    margin-left: 190px;
+}
+
+.b03 {
+    margin-left: 260px;
+}
+
+.b04 {
+    margin-left: 190px;
+}
+
+.b05 {
+    margin-left: 115px;
+}
+.text-yallow{
+    color: #FCC300;
+}
+.text-blue1{
+    color: #58D6F3;
+}
+.text-blue2{
+    color: #2470BA;
+}
+.text-green2{
+    color: #C3E02C;
+}
+.center-text{
+    margin-top: -590px;
+}
+
+@media (min-width:1700px) {
+    .center-text{
+        margin-top: -650px;
+    }
+}
+@media (max-width:768px) {
+    .bg-1 .row {
+        padding: 5s8px 0;
+    }
+
+    .fs-65 {
+        font-size: 6.385vw;
+    }
+
+    .fs-25 {
+        font-size: 3.302vw;
+    }
+
+    .fs-45 {
+        font-size: 5.344vw;
+    }
+}
